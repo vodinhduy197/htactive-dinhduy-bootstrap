@@ -1,0 +1,139 @@
+body .flex-box {
+    display: flex;
+}
+a, address, blockquote, body, dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, img, label, legend, li, ol, p, span, strong, table, tbody, td, tfoot, th, thead, tr, ul{
+    font-family: 'Roboto',sans-serif;
+}
+i {
+    margin-right: 5px;
+}
+.header_ {
+    display: block;
+    padding: 1.25rem 0;
+    position: relative;
+    z-index: 99;
+    background-image: url('../image/slide.jpg');
+}
+.header__logo a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 14.375rem;
+    height: 3.6875rem;
+    background: no-repeat center center;
+    background-size: 92% auto;
+}
+.header__right {
+    margin-left: auto;
+}
+.header__listinfo {
+    text-align: right;
+    font-size: .875rem;
+}
+.header__listinfo li {
+    display: inline-block;
+    padding-left: 2.5rem;
+    color: #fff;
+}
+.header__listinfo li .address {
+    display: flex;
+    align-items: center;
+}
+.header__listinfo li .address a {
+    display: inline-block;
+    width: 1.0625rem;
+    height: 1.0625rem;
+    background: url(../image/maps.svg) no-repeat center center;
+    background-size: 100%;
+    margin-left: .5rem;
+}
+.header__listinfo li.language {
+    border-left: 1px solid #fff;
+    padding-left: 1.25rem;
+    margin-left: 1.25rem;
+}
+.logo_language {
+    width: 23px;
+    height: 17.25px;
+    margin-right: 5px;
+}
+.header__menu {
+    margin-top: 1.25rem;
+}
+.header__listmenu {
+    font-size: .875rem;
+}
+.header__listmenu li {
+    display: inline-block;
+    padding-left: 2.5rem;
+    position: relative;
+}
+.header__listmenu li a {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: .625rem;
+    text-decoration: none;
+}
+.slide {
+    z-index: 1;
+}
+.slide img{
+    height: auto;
+    width: 100%;
+}
+.benefit_title span {
+    font-size: .75rem;
+    color: #9b9b9b;
+    font-weight: 700;
+    display: block;
+    margin-bottom: .625rem;
+}
+
+.benefit_title ul li .space{
+    font-size: 2.25rem;
+    color: #145c90;
+    font-weight: 700;
+    display: block;
+    font-family: 'UTMNeutra';
+}
+.benefit_title ul li .office {
+    font-size: 2.25rem;
+    color: #9b9b9b;
+    font-weight: 700;
+    display: block;
+    font-family: 'UTMNeutra';
+}
+.section_benefit {
+    padding: 3.75rem 0;
+    background: #fbfbfb;
+}
+.benefit_title ul li a{
+    margin-right: 3.125rem;
+}
+.benefit_content {
+    margin-top: 3.125rem;
+}
+.benefit_content .card-title {
+    margin-top: 1.25rem;
+    font-size: .9375rem;
+    color: #2c2c2c;
+    display: block;
+    font-family: 'UTMNeutra';
+}
+
+.benefit_content .unit-price {
+    font-size: .8125rem;
+    color: #2c2c2c;
+    display: block;
+    margin-top: .9375rem;
+}
+.benefit_content .price {
+    color: #2c2c2c;
+    display: block;
+    margin-top: .9375rem;
+}
+.section_event {
+    padding: 3.75rem 0;
+}
